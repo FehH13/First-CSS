@@ -1,0 +1,42 @@
+body {
+	background-image: url(siteback5.jpg);
+	background-size: cover ;
+	text-align: justify;
+	font-family: 'Indie Flower', cursive;
+	color: #D9D9E0;
+	font-size: 120%;
+}
+
+img {
+	transition: all 0.7s;
+}
+
+h1 {
+	text-align: center;
+	color: #3E3E4B;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+	font-size: 50px;
+}
+
+h1:hover {
+	font-style: italic;
+	cursor: none;
+	color: #6E6E84;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+div {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	transition: all 1s;
+
+}
+
+.imagem:hover{
+	transform: scale(1.3);
+}
+
+
